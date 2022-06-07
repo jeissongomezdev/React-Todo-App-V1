@@ -1,0 +1,58 @@
+.todo {
+  margin: 0 auto 3rem;
+  width: 80%;
+
+  &__title {
+    // color: white;
+    letter-spacing: 1rem;
+    text-transform: uppercase;
+    font-size: 4rem;
+    text-shadow: 0.1rem 0.1rem 1rem rgba(0, 0, 0, 0.342);
+    text-align: center;
+  }
+
+  &__input-container {
+    background-color: white;
+    margin-top: 2rem;
+    border-radius: 0.25rem;
+    padding: 1rem;
+    box-shadow: 0.1rem 0.1rem 1rem rgba(0, 0, 0, 0.329);
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__input {
+    border: none;
+    width: 90%;
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  &__add-btn {
+    border: none;
+    padding: 0.3rem 2rem;
+    border-radius: 0.2rem;
+    background-color: rgb(53, 201, 157);
+    color: white;
+    font-weight: 900;
+  }
+
+  .todolist-container {
+    background-color: white;
+    margin-top: 2rem;
+    border-radius: 0.25rem;
+    padding: 1rem;
+    box-shadow: 0.1rem 0.1rem 1rem rgba(0, 0, 0, 0.329);
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .todos-container {
+    overflow: auto;
+    height: 90%;
+  }
+}
