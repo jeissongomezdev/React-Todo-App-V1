@@ -32,10 +32,10 @@ function App() {
   };
 
   return (
-    <div className="todo-app">
-      <h1>Todo List</h1>
+    <div className="todo">
+      <h1 className="todo__title">Todo List</h1>
       <TodoForm addTodo={addTodo} />
-      <hr className="seperator" />
+      <hr className="separator" />
       {todos.map((todo) => {
         return (
           <TodoItem
